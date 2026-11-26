@@ -57,3 +57,16 @@ python python/tripservice.py
 ```
 
 **Note:** This project is a legacy-code refactoring exercise. The main purpose is to write tests and improve the code while preserving its existing behavior.
+
+
+
+## Changelog
+
+### Version 1.0.0
+
+- Renamed `getTripsByUser()` to `get_trips_by_user()`.
+- Corrected the exception class name.
+- Renamed the `friend` field to `friends`.
+- Extracted friend-checking logic into an `is_friend()` method.
+- Added characterization tests to verify existing behavior.
+- Improved code readability and maintainability.
